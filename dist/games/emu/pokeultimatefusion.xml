@@ -1,0 +1,33 @@
+<Module>
+<ModulePrefs title="Pokemon - Ultimate Fusion"/>
+<Content type="html">
+<![CDATA[
+<html>
+    <head>
+        <!--HTML file auto generated using EmulatorJS codehelper-->
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "gba";
+            EJS_gameName = "Pokemon - Ultimate Fusion Version";
+            EJS_color = "#0064ff";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "https://cdn.jsdelivr.net/gh/genizy/emu@7bf5cbb0b94866568d2aaa1fd42ebb5acd517e0d/";
+            EJS_gameUrl = "https://cdn.jsdelivr.net/gh/mastercodewolf/cdn-gba@2571635510e087062df43e1e852f96fb3765e8a8/Pokemon%20Ultimate%20Fusion.zip";
+        </script>
+        <script src="https://cdn.jsdelivr.net/gh/genizy/emu@7bf5cbb0b94866568d2aaa1fd42ebb5acd517e0d/loader.js"></script>
+    </body>
+</html>
+]]>
+</Content>
+</Module>

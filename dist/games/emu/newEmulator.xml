@@ -1,0 +1,55 @@
+<Module>
+<ModulePrefs title="emu"/>
+<Content type="html">
+<![CDATA[
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+                height: 100%;
+                width: 100%;
+            }
+            #loadingScreen {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #000;
+                color: #fff;
+                font-family: Arial, sans-serif;
+                font-size: 24px;
+                z-index: 10;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="loadingScreen">Loading...</div>
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_gameName = "URL Specified Game";
+            EJS_color = "#0064ff";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "https://cdn.jsdelivr.net/gh/genizy/emu@7bf5cbb0b94866568d2aaa1fd42ebb5acd517e0d/";
+            EJS_core = `${new URLSearchParams(window.location.search).get('core')}`;
+            EJS_gameUrl = `${new URLSearchParams(window.location.search).get('emu')}`;
+            EJS_onGameStart = function(e) {
+                document.getElementById("loadingScreen").remove();
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/gh/genizy/emu@7bf5cbb0b94866568d2aaa1fd42ebb5acd517e0d/loader.js"></script>
+    </body>
+</html>
+
+]]>
+</Content>
+</Module>

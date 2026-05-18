@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Game logo">
+  <rect width="256" height="256" rx="48" fill="#101820"/>
+  <path fill="#69d6bd" d="M74 92h108c21 0 38 17 38 38v18c0 21-17 38-38 38h-8c-9 0-16-4-22-10l-15-16h-18l-15 16c-6 6-13 10-22 10h-8c-21 0-38-17-38-38v-18c0-21 17-38 38-38Z"/>
+  <path fill="#101820" d="M84 120h18v16h16v18h-16v16H84v-16H68v-18h16v-16Zm89 9a12 12 0 1 1-24 0 12 12 0 0 1 24 0Zm25 31a12 12 0 1 1-24 0 12 12 0 0 1 24 0Z"/>
+  <path fill="#f7fbff" d="M88 54h80c9 0 16 7 16 16v10H72V70c0-9 7-16 16-16Z" opacity=".16"/>
+</svg>

@@ -1,0 +1,33 @@
+<Module>
+<ModulePrefs title="mario"/>
+<Content type="html">
+<![CDATA[
+<html>
+    <head>
+        <!--HTML file auto generated using EmulatorJS codehelper-->
+        <style>
+            body, html {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width:100%;height:100%;max-width:100%">
+            <div id="game"></div>
+        </div>
+        <script>
+            EJS_player = "#game";
+            EJS_core = "nds";
+            EJS_gameName = "mario";
+            EJS_color = "#0064ff";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "https://cdn.jsdelivr.net/gh/genizy/emu@7bf5cbb0b94866568d2aaa1fd42ebb5acd517e0d/";
+            EJS_gameUrl = "https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@3dc79d9addc4c73eaa5850f556c15826028f7b10/New%20Super%20Mario%20Bros.%20(USA%2C%20Australia).zip";
+        </script>
+        <script src="https://cdn.jsdelivr.net/gh/genizy/emu@7bf5cbb0b94866568d2aaa1fd42ebb5acd517e0d/loader.js"></script>
+    </body>
+</html>
+]]>
+</Content>
+</Module>
